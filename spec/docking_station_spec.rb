@@ -1,6 +1,10 @@
-require "docking_station"
+require 'docking_station'
+
 describe DockingStation do
-  it "responds to the method release_bike" do
-    expect(subject).to respond_to :release_bike # respond_to !!!!!!!!
+  it { is_expected.to respond_to :release_bike }
+
+  it "releases working bikes" do
+    bike = subject.release_bike # calling a class in spec, subject = self!
+    expect(bike).to be_working # plain english
   end
 end
