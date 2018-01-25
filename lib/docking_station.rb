@@ -1,13 +1,21 @@
 class DockingStation
-  attr_reader :bike
+  attr_reader :bicycles
 
-  def dock(bike)
-    @bike = bike
+  def initialize
+    @bicycles = []
   end
 
   def release_bike
-    if @bike == nil || @bike >= 1
-      raise StandardError.new
+    if @bicycles.empty?
+      raise StandardError.new("Docking station empty!")
+      @bicycles.pop # release a bike
+    end
+  end
+
+  def dock(bike)
+    if @bicycles.count >=20
+      raise StandardError.new("Docking station full!")
+      @bikes << bike
     end
   end
 end
