@@ -13,9 +13,9 @@ class DockingStation
   end
 
   def dock(bike)
-    if @bicycles.count >=20
+    if @bicycles.count >= 20
       raise StandardError.new("Docking station full!")
-      @bikes << bike
+      @bicycles << bike
     end
   end
 end
