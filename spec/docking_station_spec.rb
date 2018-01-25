@@ -13,19 +13,27 @@ describe DockingStation do
     expect(subject.dock(bike)).to eq bike # we want to return the bikes we dock
   end
 
-  # it "releases working bikes" do
-  #   bike = subject.release_bike # calling a class in spec, subject = self!
-  #   expect(bike).to be_working # plain english
-  # end
-
   it "returns docked bikes" do
     bike = Bike.new
     subject.dock(bike)
-    expect(subject.bike). to eq bike
+    expect(subject.bike).to eq bike
   end
 
   it "raises an error when dock is empty" do
     @bike = nil
+    p @bike
+    expect{subject.release_bike}.to raise_error(StandardError)
+  end
+
+  it "raises an error when dock is full" do
+    subject.dock(Bike.new)
+    @bike = 1
+    p @bike
     expect{subject.release_bike}.to raise_error(StandardError)
   end
 end
+
+# it "releases working bikes" do
+#   bike = subject.release_bike # calling a class in spec, subject = self!
+#   expect(bike).to be_working # plain english
+# end
