@@ -1,6 +1,6 @@
 # Boris Bikes
 
-#### :wave: Synopsis
+#### Synopsis
 
 Welcome to my repo for the Makers Academy challenge 1:1!
 
@@ -10,18 +10,36 @@ My task was to create an program that will accurately emulate the infamous "Bori
 
 The original brief for this challenge can be found [HERE!](https://github.com/makersacademy/course/blob/master/boris_bikes/0_challenge_map.md)
 
-#### :key: Key Focus
+#### Key Focus
 
 Object-Oriented Design (OOD).
 
-#### :floppy_disk: Implementation
-
-
-#### :computer: Stack
+#### Stack
 
 - Ruby.
 - RSPEC.
 
-#### :movie_camera: Demo Reel
+#### Implementation
+
+1) Clone this repository, and change into the correct directory.
+```
+$ git clone https://github.com/kaaristrack/boris_bikes
+$ cd boris_bikes
+```
+2) Open in IRB or PRY.
+```
+$ PRY
+  > require './file_collective.rb'
+```
+3) Create a new docking station.
+```
+> docking_station = DockingStation.new
+```
+4) Populate your new docking station with a bike object.
+```
+> docking_station.dock(Bike.new)
+```
+
+#### Demo Reel :movie_camera:
 
 [![thing](thing)
