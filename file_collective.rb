@@ -1,2 +1,2 @@
-require './lib/bike'
-require './lib/docking_station'
+require './lib/bike.rb'
+require './lib/docking_station.rb'
