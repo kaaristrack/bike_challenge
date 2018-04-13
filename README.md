@@ -1,6 +1,8 @@
 # Boris Bikes
 
-#### Synopsis
+[![Build Status](https://travis-ci.org/kaaristrack/boris_bikes.svg?branch=master)](https://travis-ci.org/kaaristrack/boris_bikes)
+
+### Synopsis
 
 Welcome to my repo for the Makers Academy challenge 1:1!
 
@@ -10,16 +12,16 @@ My task was to create an program that will accurately emulate the infamous "Bori
 
 The original brief for this challenge can be found [HERE!](https://github.com/makersacademy/course/blob/master/boris_bikes/0_challenge_map.md)
 
-#### Key Focus
+### Key Focus
 
 Object-Oriented Design (OOD).
 
-#### Stack
+### Stack
 
 - Ruby.
 - RSPEC.
 
-#### Implementation
+### Implementation
 
 1) Clone this repository, and change into the correct directory.
 ```
@@ -41,6 +43,6 @@ $ PRY
 ```
 5) Marvel at the automatically updating capacity!
 
-#### Demo Reel :movie_camera:
+### Demo Reel :movie_camera:
 
 [COMING SOON]
