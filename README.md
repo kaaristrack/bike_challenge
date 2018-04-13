@@ -39,7 +39,8 @@ $ PRY
 ```
 > docking_station.dock(Bike.new)
 ```
+5) Marvel at the automatically updating capacity!
 
 #### Demo Reel :movie_camera:
 
-[![thing](thing)
+[COMING SOON]

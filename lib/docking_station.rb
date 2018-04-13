@@ -16,6 +16,7 @@ class DockingStation
   def dock(bike)
     raise 'Docking station full!' if full?
     @bicycles << bike
+    @capacity = DEFAULT_CAPACITY - 1
   end
 
   private
