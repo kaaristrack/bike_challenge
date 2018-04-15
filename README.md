@@ -1,4 +1,4 @@
-# Boris Bikes
+# Bike Challenge
 
 [![Build Status](https://travis-ci.org/kaaristrack/boris_bikes.svg?branch=master)](https://travis-ci.org/kaaristrack/boris_bikes)
 
@@ -25,7 +25,7 @@ Object-Oriented Design (OOD).
 
 1) Clone this repository, and change into the correct directory.
 ```
-$ git clone https://github.com/kaaristrack/boris_bikes
+$ git clone https://github.com/kaaristrack/bike_challenge
 $ cd boris_bikes
 ```
 2) Open in IRB or PRY.
